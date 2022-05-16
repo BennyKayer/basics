@@ -1,4 +1,7 @@
+<input (keyup)="changeImage($event)" type="text" [value]="imgURL" />
+
 <img [src]="imgURL" alt="" />
+
 <p>{{ name.toUpperCase() }}</p>
 <p>Hello {{ getName() }}</p>
 <p>{{ 15 + 13 }}</p>
