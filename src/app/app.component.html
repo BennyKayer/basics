@@ -1,4 +1,8 @@
-<button (click)="blueClass = !blueClass" [ngClass]="{ blue: blueClass }">
+<button
+    (click)="blueClass = !blueClass"
+    [ngClass]="{ blue: blueClass }"
+    [ngStyle]="{ 'font-size.px': fontSize }"
+>
     Change
 </button>
 
