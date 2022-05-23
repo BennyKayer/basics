@@ -1,6 +1,9 @@
-<ng-template>
+<!-- Either -->
+<!-- <ng-template [ngIf]="blueClass">
     <p>Button is blue.</p>
-</ng-template>
+</ng-template> -->
+<!-- Or -->
+<p *ngIf="blueClass">Button is blue.</p>
 
 <button
     (click)="blueClass = !blueClass"
